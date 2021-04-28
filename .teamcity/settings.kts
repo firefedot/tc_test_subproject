@@ -26,4 +26,11 @@ version = "2020.2"
 
 project {
     description = "test subproject"
+
+    buildType(FirstTest_TstSub)
 }
+
+object FirstTest_TstSub : BuildType({
+    id = AbsoluteId("FirstTest_TstSub")
+    name = "tst_sub"
+})
